@@ -91,7 +91,7 @@ public class EnhancedHybridEncryptionApp extends JFrame {
         // Button Actions
         encryptButton.addActionListener(e -> handleEncryption());
         decryptButton.addActionListener(e -> handleDecryption());
-        copyButton.addActionListener(e -> copyToClipboard());
+        copyButton.addActionListener(e -> copyToClipboard()); 
     }
 
     private void styleButton(JButton button, Color background, Color foreground) {
